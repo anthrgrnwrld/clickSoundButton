@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		367C0DEB1BCFBCAF00B62C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0DEA1BCFBCAF00B62C8F /* AppDelegate.swift */; };
+		367C0DED1BCFBCAF00B62C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0DEC1BCFBCAF00B62C8F /* ViewController.swift */; };
+		367C0DF01BCFBCAF00B62C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367C0DEE1BCFBCAF00B62C8F /* Main.storyboard */; };
+		367C0DF21BCFBCAF00B62C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367C0DF11BCFBCAF00B62C8F /* Assets.xcassets */; };
+		367C0DF51BCFBCAF00B62C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367C0DF31BCFBCAF00B62C8F /* LaunchScreen.storyboard */; };
+		367C0E001BCFBCAF00B62C8F /* ClickSoundButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0DFF1BCFBCAF00B62C8F /* ClickSoundButtonTests.swift */; };
+		367C0E0B1BCFBCAF00B62C8F /* ClickSoundButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E0A1BCFBCAF00B62C8F /* ClickSoundButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		367C0DFC1BCFBCAF00B62C8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 367C0DDF1BCFBCAF00B62C8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 367C0DE61BCFBCAF00B62C8F;
+			remoteInfo = ClickSoundButton;
+		};
+		367C0E071BCFBCAF00B62C8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 367C0DDF1BCFBCAF00B62C8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 367C0DE61BCFBCAF00B62C8F;
+			remoteInfo = ClickSoundButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		367C0DE71BCFBCAF00B62C8F /* ClickSoundButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickSoundButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		367C0DEA1BCFBCAF00B62C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		367C0DEC1BCFBCAF00B62C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		367C0DEF1BCFBCAF00B62C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		367C0DF11BCFBCAF00B62C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		367C0DF41BCFBCAF00B62C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		367C0DF61BCFBCAF00B62C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367C0DFB1BCFBCAF00B62C8F /* ClickSoundButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickSoundButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		367C0DFF1BCFBCAF00B62C8F /* ClickSoundButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSoundButtonTests.swift; sourceTree = "<group>"; };
+		367C0E011BCFBCAF00B62C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367C0E061BCFBCAF00B62C8F /* ClickSoundButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickSoundButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		367C0E0A1BCFBCAF00B62C8F /* ClickSoundButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSoundButtonUITests.swift; sourceTree = "<group>"; };
+		367C0E0C1BCFBCAF00B62C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		367C0DE41BCFBCAF00B62C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367C0DF81BCFBCAF00B62C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367C0E031BCFBCAF00B62C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367C0DDE1BCFBCAF00B62C8F = {
+			isa = PBXGroup;
+			children = (
+				367C0DE91BCFBCAF00B62C8F /* ClickSoundButton */,
+				367C0DFE1BCFBCAF00B62C8F /* ClickSoundButtonTests */,
+				367C0E091BCFBCAF00B62C8F /* ClickSoundButtonUITests */,
+				367C0DE81BCFBCAF00B62C8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		367C0DE81BCFBCAF00B62C8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				367C0DE71BCFBCAF00B62C8F /* ClickSoundButton.app */,
+				367C0DFB1BCFBCAF00B62C8F /* ClickSoundButtonTests.xctest */,
+				367C0E061BCFBCAF00B62C8F /* ClickSoundButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		367C0DE91BCFBCAF00B62C8F /* ClickSoundButton */ = {
+			isa = PBXGroup;
+			children = (
+				367C0DEA1BCFBCAF00B62C8F /* AppDelegate.swift */,
+				367C0DEC1BCFBCAF00B62C8F /* ViewController.swift */,
+				367C0DEE1BCFBCAF00B62C8F /* Main.storyboard */,
+				367C0DF11BCFBCAF00B62C8F /* Assets.xcassets */,
+				367C0DF31BCFBCAF00B62C8F /* LaunchScreen.storyboard */,
+				367C0DF61BCFBCAF00B62C8F /* Info.plist */,
+			);
+			path = ClickSoundButton;
+			sourceTree = "<group>";
+		};
+		367C0DFE1BCFBCAF00B62C8F /* ClickSoundButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				367C0DFF1BCFBCAF00B62C8F /* ClickSoundButtonTests.swift */,
+				367C0E011BCFBCAF00B62C8F /* Info.plist */,
+			);
+			path = ClickSoundButtonTests;
+			sourceTree = "<group>";
+		};
+		367C0E091BCFBCAF00B62C8F /* ClickSoundButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				367C0E0A1BCFBCAF00B62C8F /* ClickSoundButtonUITests.swift */,
+				367C0E0C1BCFBCAF00B62C8F /* Info.plist */,
+			);
+			path = ClickSoundButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		367C0DE61BCFBCAF00B62C8F /* ClickSoundButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367C0E0F1BCFBCAF00B62C8F /* Build configuration list for PBXNativeTarget "ClickSoundButton" */;
+			buildPhases = (
+				367C0DE31BCFBCAF00B62C8F /* Sources */,
+				367C0DE41BCFBCAF00B62C8F /* Frameworks */,
+				367C0DE51BCFBCAF00B62C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickSoundButton;
+			productName = ClickSoundButton;
+			productReference = 367C0DE71BCFBCAF00B62C8F /* ClickSoundButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		367C0DFA1BCFBCAF00B62C8F /* ClickSoundButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367C0E121BCFBCAF00B62C8F /* Build configuration list for PBXNativeTarget "ClickSoundButtonTests" */;
+			buildPhases = (
+				367C0DF71BCFBCAF00B62C8F /* Sources */,
+				367C0DF81BCFBCAF00B62C8F /* Frameworks */,
+				367C0DF91BCFBCAF00B62C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				367C0DFD1BCFBCAF00B62C8F /* PBXTargetDependency */,
+			);
+			name = ClickSoundButtonTests;
+			productName = ClickSoundButtonTests;
+			productReference = 367C0DFB1BCFBCAF00B62C8F /* ClickSoundButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		367C0E051BCFBCAF00B62C8F /* ClickSoundButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367C0E151BCFBCAF00B62C8F /* Build configuration list for PBXNativeTarget "ClickSoundButtonUITests" */;
+			buildPhases = (
+				367C0E021BCFBCAF00B62C8F /* Sources */,
+				367C0E031BCFBCAF00B62C8F /* Frameworks */,
+				367C0E041BCFBCAF00B62C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				367C0E081BCFBCAF00B62C8F /* PBXTargetDependency */,
+			);
+			name = ClickSoundButtonUITests;
+			productName = ClickSoundButtonUITests;
+			productReference = 367C0E061BCFBCAF00B62C8F /* ClickSoundButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		367C0DDF1BCFBCAF00B62C8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Masaki Horimoto";
+				TargetAttributes = {
+					367C0DE61BCFBCAF00B62C8F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					367C0DFA1BCFBCAF00B62C8F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 367C0DE61BCFBCAF00B62C8F;
+					};
+					367C0E051BCFBCAF00B62C8F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 367C0DE61BCFBCAF00B62C8F;
+					};
+				};
+			};
+			buildConfigurationList = 367C0DE21BCFBCAF00B62C8F /* Build configuration list for PBXProject "ClickSoundButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 367C0DDE1BCFBCAF00B62C8F;
+			productRefGroup = 367C0DE81BCFBCAF00B62C8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				367C0DE61BCFBCAF00B62C8F /* ClickSoundButton */,
+				367C0DFA1BCFBCAF00B62C8F /* ClickSoundButtonTests */,
+				367C0E051BCFBCAF00B62C8F /* ClickSoundButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		367C0DE51BCFBCAF00B62C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367C0DF51BCFBCAF00B62C8F /* LaunchScreen.storyboard in Resources */,
+				367C0DF21BCFBCAF00B62C8F /* Assets.xcassets in Resources */,
+				367C0DF01BCFBCAF00B62C8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367C0DF91BCFBCAF00B62C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367C0E041BCFBCAF00B62C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367C0DE31BCFBCAF00B62C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367C0DED1BCFBCAF00B62C8F /* ViewController.swift in Sources */,
+				367C0DEB1BCFBCAF00B62C8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367C0DF71BCFBCAF00B62C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367C0E001BCFBCAF00B62C8F /* ClickSoundButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367C0E021BCFBCAF00B62C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367C0E0B1BCFBCAF00B62C8F /* ClickSoundButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		367C0DFD1BCFBCAF00B62C8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 367C0DE61BCFBCAF00B62C8F /* ClickSoundButton */;
+			targetProxy = 367C0DFC1BCFBCAF00B62C8F /* PBXContainerItemProxy */;
+		};
+		367C0E081BCFBCAF00B62C8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 367C0DE61BCFBCAF00B62C8F /* ClickSoundButton */;
+			targetProxy = 367C0E071BCFBCAF00B62C8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		367C0DEE1BCFBCAF00B62C8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367C0DEF1BCFBCAF00B62C8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		367C0DF31BCFBCAF00B62C8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367C0DF41BCFBCAF00B62C8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		367C0E0D1BCFBCAF00B62C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		367C0E0E1BCFBCAF00B62C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		367C0E101BCFBCAF00B62C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickSoundButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.ClickSoundButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		367C0E111BCFBCAF00B62C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickSoundButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.ClickSoundButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		367C0E131BCFBCAF00B62C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClickSoundButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.ClickSoundButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickSoundButton.app/ClickSoundButton";
+			};
+			name = Debug;
+		};
+		367C0E141BCFBCAF00B62C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClickSoundButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.ClickSoundButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickSoundButton.app/ClickSoundButton";
+			};
+			name = Release;
+		};
+		367C0E161BCFBCAF00B62C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClickSoundButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.ClickSoundButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClickSoundButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		367C0E171BCFBCAF00B62C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClickSoundButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthrgrnwrld.ClickSoundButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClickSoundButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		367C0DE21BCFBCAF00B62C8F /* Build configuration list for PBXProject "ClickSoundButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367C0E0D1BCFBCAF00B62C8F /* Debug */,
+				367C0E0E1BCFBCAF00B62C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367C0E0F1BCFBCAF00B62C8F /* Build configuration list for PBXNativeTarget "ClickSoundButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367C0E101BCFBCAF00B62C8F /* Debug */,
+				367C0E111BCFBCAF00B62C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		367C0E121BCFBCAF00B62C8F /* Build configuration list for PBXNativeTarget "ClickSoundButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367C0E131BCFBCAF00B62C8F /* Debug */,
+				367C0E141BCFBCAF00B62C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		367C0E151BCFBCAF00B62C8F /* Build configuration list for PBXNativeTarget "ClickSoundButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367C0E161BCFBCAF00B62C8F /* Debug */,
+				367C0E171BCFBCAF00B62C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 367C0DDF1BCFBCAF00B62C8F /* Project object */;
+}
